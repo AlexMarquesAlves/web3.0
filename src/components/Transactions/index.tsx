@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface TransactionsProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function Transactions({ children }: TransactionsProps) {

@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface NavbarProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const Navbar = ({ children }: NavbarProps) => {

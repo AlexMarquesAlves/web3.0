@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface ServicesProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function Services({ children }: ServicesProps) {

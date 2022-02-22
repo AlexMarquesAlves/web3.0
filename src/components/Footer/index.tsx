@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface FooterProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function Footer({ children }: FooterProps) {

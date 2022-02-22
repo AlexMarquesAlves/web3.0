@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface WelcomeProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function Welcome({ children }: WelcomeProps) {
